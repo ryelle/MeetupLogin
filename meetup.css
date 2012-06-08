@@ -1,0 +1,7 @@
+#meetup-login a {
+	display: block;
+	margin: 1em 0;
+	text-align: center;
+	background: url('http://meetups.valleysummit.org/files/2012/01/meetup_logo_1.png') no-repeat center top;
+	padding-top: 65px;
+}
