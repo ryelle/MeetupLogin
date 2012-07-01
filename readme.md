@@ -9,7 +9,7 @@ While this plugin will work just fine with minimal configuration, the real power
 
 There are [hooks](http://codex.wordpress.org/Plugin_API#Hooks.2C_Actions_and_Filters) created so that you can use any method you want to store the connection between meetup user &amp; WP user. There is no way to do this outside of code, and I don't plan on adding or supporting one.
 
-[View a walkthrough on my website]().
+[View a walkthrough on my website](http://redradar.net/2012/07/01/meetup-login-alpha/).
 
 ### Definitions
 
@@ -41,5 +41,4 @@ There currently is no automated way for existing users to hook up their meetup a
 
 ## Todo
 * Add a message when users cannot be created. Currently redirects silently to home page.
-* Add method to attach existing users to a meetup ID
-+ + Will probably be a method for site admin to write in the meetup ID per user.
+* Add method to attach existing users to a meetup ID (Will probably be a method for site admin to write in the meetup ID per user).
