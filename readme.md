@@ -3,6 +3,8 @@ Meetup Login
 
 A WordPress plugin to integrate Meetup.com users into your WP site. For use with a [Meetup.com](http://meetup.com) group. Meetup Login allows users to log in to your WordPress site using their meetup.com account. 
 
+Follow the instructions on [Meetup Widgets](http://wordpress.org/extend/plugins/meetup-widgets/installation/) to set this plugin up with your API & OAuth information. [View the FAQ there for info on finding your API & OAuth info](http://wordpress.org/extend/plugins/meetup-widgets/faq/) - both are required for this plugin.
+
 ## Documentation
 
 While this plugin will work just fine with minimal configuration, the real power of it will be in making it work with your site. The default behavior is to create a user account with the meetup ID number as user meta, and then to find that meta value when the user logs in again.
