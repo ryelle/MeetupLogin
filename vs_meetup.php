@@ -82,13 +82,14 @@ class VsMeet {
 	 * @return array a valid array.
 	 */
 	public function validate($input) {
-		if ( !preg_match('/^[a-zA-Z0-9]{0,40}$/i', $input['vs_meetup_key']) )
-			$input['vs_meetup_key'] = $input['vs_meetup_key'];
-		if ( !preg_match('/^[a-zA-Z0-9]{0,40}$/i', $input['vs_meetup_secret']) )
-			$input['vs_meetup_secret'] = $input['vs_meetup_secret'];
-		if ( !preg_match('/^[a-zA-Z0-9]{0,40}$/i', $input['vs_meetup_api_key']) )
-			$input['vs_meetup_api_key'] = $input['vs_meetup_api_key'];
-	    return $input;
+		$output = array();
+		if ( preg_match('/^[a-zA-Z0-9]{0,40}$/i', $input['vs_meetup_key']) )
+			$output['vs_meetup_key'] = $input['vs_meetup_key'];
+		if ( preg_match('/^[a-zA-Z0-9]{0,40}$/i', $input['vs_meetup_secret']) )
+			$output['vs_meetup_secret'] = $input['vs_meetup_secret'];
+		if ( preg_match('/^[a-zA-Z0-9]{0,40}$/i', $input['vs_meetup_api_key']) )
+			$output['vs_meetup_api_key'] = $input['vs_meetup_api_key'];
+		return $output;
 	}
 	
 }
